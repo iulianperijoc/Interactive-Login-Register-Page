@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="createacc">
+        <span>Don't have an account?</span>
+        <div class="registerLogin">Join us!</div>
+      </div>
+      <div class="forgot">
+        <span>Forgot password?</span>
+      </div>
+      <div class="inputCheck">
+        <input class="textInput" type="checkbox" />
+        <span>Remember me</span>
+      </div>
+      <div class="inputBox">
+        <input class="textInput" type="text" required="required" />
+        <span>Email</span>
+      </div>
+      <div class="inputBox">
+        <input class="textInput" id="passInput" type="password" required="required" />
+        <div class="container-password">
+        <img id ="hidePass" src="./images/hide.png" />
+        <img id ="showPass" src="./images/show.png" />
+        </div>
+        <span id="password">Password</span>
+      </div>
+      <div class="login-container">
+        <header class="loginText">Login</header>
+      </div>
+      <div class="loginButton">
+        <span>Login!</span>
+      </div>
+    </div>
+    <div class="container-fp">
+      <div id="backLogin1">Back to login</div>
+      <div class="writeBoxFp">
+        <input class="textInput" type="text" required="required" />
+        <span>Email</span>
+      </div>
+      <div class="fpEmail">Email</div>
+      <div class="fpEmailButton">
+        <span>Send link</span>
+      </div>
+      <div class="sentBox">
+        <span>*Please check your email!*</span>
+      </div>
+    </div>
+    <div class="container-register">
+      <div class="registerTitle">
+        <head>
+          Register
+        </head>
+      </div>
+      <div class="registerButton">
+        <span>Join</span>
+      </div>
+      <div class="registerDetails">
+        <span>First Name</span>
+        <input class="textInput" type="text" required="required" />
+        <span>Last Name</span>
+        <input class="textInput" type="text" required="required" />
+        <span>Date of birth</span>
+        <input class="textInput" type="text" required="required" />
+        <span>Email</span>
+        <input class="textInput" type="text" required="required" />
+        <span>Password</span>
+        <input class="textInput" type="password" required="required" />
+        <span>Confirm Password</span>
+        <input class="textInput" type="password" required="required" />
+      </div>
+      <div id="backLogin2">
+        <span>Back to login</span>
+      </div>
+    </div>
+    <div class="checkEmail">
+      <span>Check your email! ✨</span>
+      <div id="backRegister">Back to register</div>
+    </div>
+  </body>
+  <script src="machine.js"></script>
+</html>
