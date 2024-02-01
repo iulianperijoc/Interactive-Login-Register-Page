@@ -1,4 +1,4 @@
-Login/Register Page (HTML/CSS/JS).
+🌕✨ Login/Register Page (HTML/CSS/JS). 
 A page with Login form and Register form that can be used for a new site.
 It has different features like:
 - glossy dashboard tab
